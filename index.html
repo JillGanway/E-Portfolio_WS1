@@ -3,101 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="Style.css">
 </head>
+
 <body>
-    <header id="Home">
-       <nav>
+
+<header id="Home">
+
+    <nav>
+        <img src="logogani.png" alt="Logo" width="100">
+
+        <div class="nav-links">
             <a href="#Home">Home</a>
             <a href="#About">About</a>
             <a href="#Skills">Skills</a>
             <a href="#Projects">Projects</a>
             <a href="#Contact">Contact</a>
-        </nav>
+        </div>
+    </nav>
 
-         <div class="hero-container">
-            <img src="IMG_8166.JPG" alt="Profile Picture">
-            <div class="hero-text"
-            <h1> Ganway, Jillian Smile G.</h1>
+    <div class="hero-container">
+        <img src="IMG_8166.JPG" alt="Profile Picture">
+
+        <div class="hero-text">
+            <h1 id="mainHeading">Ganway, Jillian Smile G.</h1>
             <h2>Bachelor of Science in Information Technology</h2>
-            <h2>Can't compromise but will promise.</h2>
-            </div>
+            <h2>Can't promise but will compromise.</h2>
+
+            <br>
+
+            <button onclick="changeTheme()">Dark Mode</button>
+            <button onclick="showInfo()">My Information</button>
+
         </div>
-    </header>
+    </div>
 
-    
-<br>
-    <section id="About">
-        <h2>About Me</h2>
-        <p>I'm the first-born child of two.</p>
-        <p>We lived in Sitio Tubungan, Bo. Cinco, Banga, South Cotabato.</p>
-        <p>I'm 20 years old.</p>
-        <p>I was born on November 23, 2005, Wednesday at 11:57 PM.</p>
-        <p>I'm a working student at Fgen Insurance Company.</p>
-        <p>I have six years of working experience.</p>
-        <p>I graduated kindergarten from Emma Learning Center (2009-2011),<br>
-           elementary from Surallah Central Elementary School (2011-2017),<br>
-           junior high from Libertad National High School (2017-2022), <br>
-           senior high from San Jose National High School(2022-2024), <br>
-           and I'm currently studying at Holy Child Central Colleges Inc. as a 3rd year BSIT student (2024-2026).</p>
-    </section>
-      
-<br>
-    <section id="Skills">
-        <h2>My Skills</h2>
-        <p>Editing</p>
-        <p>Customer service</p>
-        <p>Typing</p>
-        <p>Designing</p>
-        <p>Communication</p>
-        <p>PowerPoint</p>
-        <p>Word</p>
-        <p>Excel</p>
-    </section>
+</header>
 
 <br>
-    <section id="Projects">
-        <h2>My Projects</h2>
-        <h3>Budget Tracker System</h3>
-        <p>It is a budget tracking system that records deposits and withdrawals.</p>
-        <h3>Diamond Shop Inventory System</h3>
-        <p>It is a system for selling and restocking diamonds.</p>
-        <h3>MortorShield Pro</h3>
-        <p>It is a vehicle insurance system that stores insured clients' information and notifies the agent when a policy has 30 days left.</p>
-    </section>
 
-<br>       
-    <section id="Contact">
-        <h2>How to contact me</h2>
-        <div class="contact-grid">
-            <div class="contact-item">
-                <h3>Facebook</h3>
-                <p>Jillian Ganway</p>
-            </div>
-            <div class="contact-item">
-                <h3>Email</h3>
-                <p>Jilicamae88@gmail.com</p>
-            </div>
-            <div class="contact-item">
-                <h3>Phone</h3>
-                <p>0997-166-4068</p>
-            </div>
-            <div class="contact-item">
-                <h3>WhatsApp</h3>
-                <p>0997-166-4068</p>
-            </div>
-            <div class="contact-item">
-                <h3>Telegram</h3>
-                <p>0997-166-4068</p>
-            </div>
-            <div class="contact-item"> 
-                <h3>Instagram</h3>
-                <p>whois.jill</p>
-            </div>
+<section id="About">
+    <h2>About Me</h2>
+
+    <p>I'm the first-born child of two.</p>
+    <p>We lived in Sitio Tubungan, Bo. Cinco, Banga, South Cotabato.</p>
+    <p>I'm 20 years old.</p>
+    <p>I was born on November 23, 2005, Wednesday at 11:57 PM.</p>
+    <p>I'm a working student at Fgen Insurance Company.</p>
+    <p>I have six years of working experience.</p>
+
+    <p>
+        I graduated kindergarten from Emma Learning Center (2009-2011),<br>
+        elementary from Surallah Central Elementary School (2011-2017),<br>
+        junior high from Libertad National High School (2017-2022),<br>
+        senior high from San Jose National High School (2022-2024),<br>
+        and I'm currently studying at Holy Child Central Colleges Inc. as a 3rd year BSIT student (2024-2026).
+    </p>
+
+</section>
+
+<br>
+
+<section id="Skills">
+
+    <h2>My Skills</h2>
+
+    <p>Editing</p>
+    <p>Customer Service</p>
+    <p>Typing</p>
+    <p>Designing</p>
+    <p>Communication</p>
+    <p>PowerPoint</p>
+    <p>Word</p>
+    <p>Excel</p>
+
+</section>
+
+<br>
+
+<section id="Projects">
+
+    <h2>My Projects</h2>
+
+    <h3>Budget Tracker System</h3>
+    <p>It is a budget tracking system that records deposits and withdrawals.</p>
+
+    <h3>Diamond Shop Inventory System</h3>
+    <p>It is a system for selling and restocking diamonds.</p>
+
+    <h3>MotorShield Pro</h3>
+    <p>It is a vehicle insurance system that stores insured clients' information and notifies the agent when a policy has 30 days left.</p>
+
+</section>
+
+<br>
+
+<section id="Contact">
+
+    <h2>How to Contact Me</h2>
+
+    <div class="contact-grid">
+
+        <div class="contact-item">
+            <h3>Facebook</h3>
+            <p>Jillian Ganway</p>
         </div>
-    </section>
+
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p>Jilicamae88@gmail.com</p>
+        </div>
+
+        <div class="contact-item">
+            <h3>Phone</h3>
+            <p>0997-166-4068</p>
+        </div>
+
+        <div class="contact-item">
+            <h3>WhatsApp</h3>
+            <p>0997-166-4068</p>
+        </div>
+
+        <div class="contact-item">
+            <h3>Telegram</h3>
+            <p>0997-166-4068</p>
+        </div>
+
+        <div class="contact-item">
+            <h3>Instagram</h3>
+            <p>whois.jill</p>
+        </div>
+
+    </div>
+
+</section>
+
 <br>
-    <footer>@ 2026 Jillian Smile G. Ganway. All Rights Reserved.</footer> 
+
+<footer>
+    © 2026 Jillian Smile G. Ganway. All Rights Reserved.
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
